@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forum of the Suffering</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<h>Let's get talking.</h>
+<form method="post" action="http://localhost:8000/">
+    <input id="name" placeholder="Name" type="text" name="name">
+    <input id="message" placeholder="Message" type="text" name="message">
+    <input id="send" value="Send" type="submit" formtarget="dummyframe"   onclick="addMessage()">
+</form>
+
+<ul id="list"></ul>
+
+<script src="index.js"></script>
+</body>
+</html>
