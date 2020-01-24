@@ -1,7 +1,5 @@
 function addMessage() {
 
-    console.log("Funktioniert");
-
     let name = document.getElementById('name').value;
     let message = document.getElementById('message').value;
     let list = document.getElementById('list');
