@@ -5,72 +5,59 @@ body {
 
 h {
     position: absolute;
-    left: 40%;
+    left: 38%;
     font-family: "Times New Roman";
     font-size: 2em;
-    color: red;
 
-}
-#message{
-
-    position: absolute;
-    min-width: 80%;
-    height: 7%;
-    background-color: #161718;
-    text-align: center;
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 1.5em;
-    color: #E3E1E2;
-    top: 20%;
-    left: 3%;
+    background-color: black;
+    color: white;
 
 }
 
 #name{
+     position: absolute;
+     min-width: 80%;
+     height: 7%;
+     background-color: darkred;
+     text-align: center;
+     font-size: 1.5em;
+     font-color: black;
+     top: 10%;
+     left: 8%;
+}
+
+#message{
 
     position: absolute;
     min-width: 80%;
     height: 7%;
     background-color: darkred;
     text-align: center;
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: lighter;
     font-size: 1.5em;
-    color: #E3E1E2;
-    top: 10%;
-    left: 3%;
+    font-color: black;
+    top: 20%;
+    left: 8%;
 
 }
 
 #send{
-
     position: absolute;
     min-width: 7%;
     height: 7%;
-    background-color: #161718;
+    background-color: black;
     text-align: center;
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: lighter;
     font-size: 1.5em;
-    color: #E3E1E2;
-    bottom: 8%;
+    color: white;
+    top: 30%;
     left: 85%;
 }
 
 #list{
-
     position: absolute;
     text-align: left;
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: lighter;
     font-size: 1.5em;
-    color: darkgray;
+    color: white;
     top: 30%;
-    left: 5%;
-
+    left: 8%;
+    background-color: black;
 }
